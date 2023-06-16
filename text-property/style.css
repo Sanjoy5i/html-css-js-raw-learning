@@ -1,0 +1,27 @@
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid red;
+    /* white-space:nowrap ; */
+    /* overflow: hidden; */
+    /* text-overflow:'...'; */
+    writing-mode:sideways-rl;
+    color: black;
+    column-count: 2;
+    column-gap: 4px;
+    column-rule: 2px dotted black;
+    
+}
+
+.container h2{
+    column-span: all;
+}
+
+@font-face {
+    font-family: arial;
+    src: url();
+}
+
+h2{
+    font-family: arial ;
+}

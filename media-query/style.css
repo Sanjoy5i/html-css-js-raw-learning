@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    background-color: tomato;
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        color: red;
+    }
+    .container{
+        background-color: aqua;
+    }
+}
+ 
+@media print{
+    p{
+        color: orange;
+        /* background-color: black; */
+    }
+}

@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./blog-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid red;
+    outline: 1px solid green;
+    outline-offset: 3px;
+    padding: 5px;
+    background-clip:border-box;
+    background-attachment: fixed;
+}
+
+.container .item{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    text-align: center;
+    backdrop-filter:sepia(90%);
+}

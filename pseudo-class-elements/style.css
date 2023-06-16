@@ -1,0 +1,59 @@
+table tr:nth-child(odd) {
+    background-color: red;
+}
+
+h2::before {
+    content: "my name ";
+    background-color: red;
+    color: black;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+h2::after {
+    content: "is san";
+    display: block;
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: gray;
+}
+
+p::selection {
+    color: red;
+}
+
+input::placeholder{
+    color: tomato;
+    background-color: blue;
+}
+
+input:required{
+    background-color: green;
+}
+
+/* #fullscreen:fullscreen{
+    background-color: green;
+    text-align: center;
+    font-size: 50px;
+} */
+
+#fullscreen:-webkit-full-screen{
+    background-color: orange;
+}
+
+#fullscreen:-moz-full-screen{
+    background-color: blue;
+}
+
+#fullscreen:not(:fullscreen){
+    background-color: red;
+}

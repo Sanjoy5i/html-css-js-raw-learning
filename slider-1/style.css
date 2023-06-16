@@ -1,0 +1,48 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.all-sliders{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.all-sliders .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.all-sliders .active{
+    visibility: visible;
+    opacity: 1;
+}
+
+#prev{
+    position: absolute;
+    left: 20px;
+    z-index: 3;
+    font-size: 20px;
+}
+
+#next{
+    position: absolute;
+    left: 40px;
+    z-index: 3;
+    font-size: 20px;
+}
+
+/* @media screen and (max-width:600px) {
+    .all-sliders .slider{
+        visibility: visible;
+        opacity: 1;
+    }
+} */

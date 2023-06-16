@@ -1,0 +1,60 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+
+.navbar{
+    border-radius: 5px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    padding: 10px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.slideshow-elements{
+    position: relative;
+}
+
+.slideshow-element{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform 0.6s;
+}
+
+.slideshow-element i,h2{
+    font-size: 5rem;
+    color: coral;
+}
+
+.slideshow-element.current{
+    transform: translate(-50%,-50%) scale(1);
+}

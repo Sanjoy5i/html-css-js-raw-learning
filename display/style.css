@@ -1,0 +1,13 @@
+.parent{
+    width: 600px;
+    margin: 50px 20px;
+    border: 2px solid #000;
+    display: flow-root;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}

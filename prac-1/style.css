@@ -1,0 +1,26 @@
+.div-main{
+    display: flex;
+}
+
+.div-main div{
+    background-color: green;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 2rem;
+}
+
+input{
+    padding: 5px;
+}
+
+.tooltipDiv button{
+    width: 100px;
+    background-color: orange;
+    padding: 5px;
+}
+
+.tooltipDiv p{
+    padding: 5px;
+    background-color: green;
+    width: 100px;
+}
