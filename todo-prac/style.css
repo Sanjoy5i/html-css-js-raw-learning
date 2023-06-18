@@ -1,5 +1,26 @@
-h1{
-  background-color: red;
+.form{
   text-align: center;
-  padding: 5px;
+  margin-top: 55px;
+}
+
+#text{
+  padding: 10px 5px;
+  width: 300px;
+  font-size: 15pt;
+  text-align: center;
+}
+
+
+button#add{
+  padding: 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button#add:hover{
+  color: orange;
+}
+
+#display{
+  text-align: center;
 }
